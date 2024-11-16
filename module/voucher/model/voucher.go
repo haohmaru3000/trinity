@@ -2,6 +2,8 @@ package voucher_model
 
 import "time"
 
+const EntityName = "Voucher"
+
 type Voucher struct {
 	ID         int        `json:"id" gorm:"column:id;"`
 	Code       string     `json:"code" gorm:"column:code;"`
