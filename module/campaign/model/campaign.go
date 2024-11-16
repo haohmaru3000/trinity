@@ -1,4 +1,4 @@
-package campaign_model
+package campaignmodel
 
 import "time"
 
