@@ -17,5 +17,6 @@ func (s *sqlStore) FindCampaign(context context.Context, condition map[string]in
 		}
 		return nil, common.ErrDB(err)
 	}
+
 	return &data, nil
 }
